@@ -86,7 +86,7 @@ export default function Homepage() {
       </Row>
 
 
-      <Row className='text-center'>
+      <Row className='text-center hell'>
         <Col xs={12} md={3}>
           <img src={about1} alt="" className='dark' />
         </Col>
