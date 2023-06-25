@@ -1,0 +1,38 @@
+.Homepage-container{
+    margin-top: -112px;
+    margin-left: 0;
+    padding-left: 0;
+    padding: 0 !important;
+    /* margin: 0; */
+}
+.don{
+    width: 10%;
+    background-color: black;
+    
+    
+}
+.bg{
+    background-color: black;
+    width: 25%;
+    padding:2% 0 2% 7%;
+   
+}
+.dark{
+    width: 100%;
+}
+.light{
+    width: 104%;
+}
+@media only screen and ( max-width : 700px) {
+
+    .discover{
+        padding-top: 0 !important;
+    }
+    .discovers{
+        padding-top: 0 !important;
+        margin-bottom: 10px;
+    }
+    .light{
+        width: 100%;
+    }
+}
