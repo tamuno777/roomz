@@ -20,3 +20,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.carousel-indicators [data-bs-target] {
+  width: 0 !important;
+  height: 10px !important;
+  border: 1px solid transparent !important;
+  border-radius: 10px;
+}
+
+.carousel-control-prev-icon {
+
+    background-image: url("./../src/images/icon-angle-left.svg") !important;
+    /* transform: scaleX(-1); */
+    /* justify-content: last baseline; */
+    width: 0 !important;
+    height: 10px !important;
+    border: 1px solid transparent !important;
+    border-radius: 10px;
+
+}
+
+.carousel-control-next-icon {
+
+    background-image: url("./../src/images/icon-angle-right.svg") !important;
+    width: 0 !important;
+    height: 10px !important;
+    border: 1px solid transparent !important;
+    border-radius: 10px;
+}

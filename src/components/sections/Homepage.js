@@ -26,64 +26,124 @@ export default function Homepage() {
     setIndex(selectedIndex);
   };
   return (
-    <div className='Homepage-container '>
-     <Container fluid >
+    <div className='Homepage-contain '>
+     <Container fluid className='caro'>
+      
+      <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel.Item>
       <Row>
         <Col sm={12} lg={7}>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
+
         <img
           className="d-block w-100"
           alt="First slide"
           src={hero1}
         />
+        </Col>
+        <Col sm={12} md={5} className=' discovers '>
+
+            <div className=' ps-5 pe-5 pb-4 discover '>
+                <h2 className='pt-5 pb-2'>
+                  Discover innovative ways to decorate
+                </h2>
+                <p className='pb-2'>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ea illum ipsa inventore corporis maiores, labore laboriosam deleniti aut accusamus sunt ab dolore, nam at?
+                </p>
+                <IconContext.Provider>
+                <a href="#"> SHOP NOW <img src={arrow} alt=""className='ms-2' /> </a>
+
+                </IconContext.Provider>
+            </div>
+            {/* <div className='d-flex bg text-start'>
+              <img src={left} alt="" className='don me-3' />
+              <img src={right} alt="" className='don ms-3' />
+            
+            </div> */}
+
+        </Col>
+
+
+        </Row>
        
       </Carousel.Item>
       <Carousel.Item>
+      <Row>
+        <Col sm={12} lg={7}>
+
         <img
           className="d-block w-100"
           alt="Second slide"
           src={hero2}
         />
+        </Col>
+        <Col sm={12} md={5} className=' discovers '>
 
+            <div className=' ps-5 pe-5 pb-4 discover '>
+                <h2 className='pt-5 pb-2'>
+                We are available all across the globe
+                </h2>
+                <p className='pb-2'>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ea illum ipsa inventore corporis maiores, labore laboriosam deleniti aut accusamus sunt ab dolore, nam at?
+                </p>
+                <IconContext.Provider>
+                <a href="#"> SHOP NOW <img src={arrow} alt=""className='ms-2' /> </a>
+
+                </IconContext.Provider>
+            </div>
+           
+
+        </Col>
+
+
+        </Row>
        
       </Carousel.Item>
       <Carousel.Item>
+      <Row>
+        <Col sm={12} lg={7}>
+
         <img
           className="d-block w-100"
           alt="Third slide"
           src={hero3}
         />
+        </Col>
+        <Col sm={12} md={5} className=' discovers '>
 
-        
+            <div className=' ps-5 pe-5 pb-4 discover '>
+                <h2 className='pt-5 pb-2'>
+                  Manufactured with the best materials
+                </h2>
+                <p className='pb-2'>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ea illum ipsa inventore corporis maiores, labore laboriosam deleniti aut accusamus sunt ab dolore, nam at?
+                </p>
+                <IconContext.Provider>
+                <a href="#"> SHOP NOW <img src={arrow} alt=""className='ms-2' /> </a>
+
+                </IconContext.Provider>
+            </div>
+            {/* <div className='d-flex bg text-start'>
+              <img src={left} alt="" className='don me-3' />
+              <img src={right} alt="" className='don ms-3' />
+            
+            </div> */}
+
+        </Col>
+
+
+        </Row>
+       
       </Carousel.Item>
-    </Carousel>
+      
+
+
+      </Carousel>
 
         
-        </Col>
-        <Col sm={12} md={5} className='pt-5 discovers '>
-
-          <div className='pt-5 ps-5 pe-5 pb-4 discover '>
-              <h2 className='pt-5 pb-2'>
-                Discover innovative ways to decorate
-              </h2>
-              <p className='pb-2'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ea illum ipsa inventore corporis maiores, labore laboriosam deleniti aut accusamus sunt ab dolore, nam at?
-              </p>
-              <IconContext.Provider>
-              <a href="#"> SHOP NOW <img src={arrow} alt=""className='ms-2' /> </a>
-
-              </IconContext.Provider>
-          </div>
-          <div className='d-flex bg text-start'>
-            <img src={left} alt="" className='don me-3' />
-            <img src={right} alt="" className='don ms-3' />
-           
-          </div>
         
-        </Col>
         
-      </Row>
+        
+      
 
 
       <Row className='text-center hell'>

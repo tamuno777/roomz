@@ -1,10 +1,11 @@
-.Homepage-container{
-    margin-top: -112px;
+.Homepage-contain{
+    margin-top: -110px;
     margin-left: 0;
     padding-left: 0;
     padding: 0 !important;
     /* margin: 0; */
 }
+
 .don{
     width: 10%;
     background-color: black;
@@ -18,7 +19,8 @@
    
 }
 .dark{
-    width: 100%;
+    width: 110%;
+    height: 100%;
 }
 .light{
     width: 104%;
@@ -34,5 +36,9 @@
     }
     .light{
         width: 100%;
+    }
+    .dark{
+        width: 100%;
+        height: 100%;
     }
 }
