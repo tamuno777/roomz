@@ -3,6 +3,8 @@ import Button from 'react-bootstrap/Button';
 import logo from '../../images/logo.svg'
 import Navbutton from './Navbutton';
 import './Nav.css'
+import { Link } from 'react-router-dom'
+import {BsFillCartPlusFill} from 'react-icons/bs'
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -36,12 +38,14 @@ function Navs() {
               <Offcanvas.Body>
                 <Nav className="justify-content-start flex-grow-1 pe-3 fs-5  nav-cont pt-3">
 
-                  <Nav.Link className=' link text-decoration-none' ><Navbutton title="Homepage" to="/Homepage" /></Nav.Link>
-                  <Nav.Link className='link'  ><Navbutton title="Shop" to="/Shop" /></Nav.Link>
-                  <Nav.Link className='link'  ><Navbutton title="ABout" to="/ABout" /></Nav.Link>
-                  <Nav.Link className='link'  ><Navbutton title="Contact" to="/Contact" /></Nav.Link>
-                  
+                  <div className=' link text-decoration-none' ><Navbutton title="Homepage" to="/Homepage" /></div>
+                  <div className='link'  ><Navbutton title="Shop" to="/Shop" /></div>
+                  <div className='link'  ><Navbutton title="About" to="/ABout" /></div>
+                  <div className='link'  ><Navbutton title="Contact" to="/Contact" /></div>
+                  {/* <Link className='link' to='/cart'><BsFillCartPlusFill size={20}/></Link> */}
+
                 </Nav>
+
                   
               </Offcanvas.Body>
             </Navbar.Offcanvas>

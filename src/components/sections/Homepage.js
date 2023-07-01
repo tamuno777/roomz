@@ -50,7 +50,8 @@ export default function Homepage() {
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ea illum ipsa inventore corporis maiores, labore laboriosam deleniti aut accusamus sunt ab dolore, nam at?
                 </p>
                 <IconContext.Provider>
-                <a href="#"> SHOP NOW <img src={arrow} alt=""className='ms-2' /> </a>
+                  
+                <a href="/shop"> SHOP NOW <img src={arrow} alt=""className='ms-2' /> </a>
 
                 </IconContext.Provider>
             </div>
@@ -86,7 +87,7 @@ export default function Homepage() {
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ea illum ipsa inventore corporis maiores, labore laboriosam deleniti aut accusamus sunt ab dolore, nam at?
                 </p>
                 <IconContext.Provider>
-                <a href="#"> SHOP NOW <img src={arrow} alt=""className='ms-2' /> </a>
+                <a href="/shop"> SHOP NOW <img src={arrow} alt=""className='ms-2' /> </a>
 
                 </IconContext.Provider>
             </div>
@@ -118,7 +119,7 @@ export default function Homepage() {
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ea illum ipsa inventore corporis maiores, labore laboriosam deleniti aut accusamus sunt ab dolore, nam at?
                 </p>
                 <IconContext.Provider>
-                <a href="#"> SHOP NOW <img src={arrow} alt=""className='ms-2' /> </a>
+                <a href="/shop"> SHOP NOW <img src={arrow} alt=""className='ms-2' /> </a>
 
                 </IconContext.Provider>
             </div>
@@ -150,7 +151,7 @@ export default function Homepage() {
         <Col xs={12} md={3}>
           <img src={about1} alt="" className='dark' />
         </Col>
-        <Col xs={12} md={5} className='py-5 text-start px-4 '>
+        <Col xs={12} md={5} className='pt-5 text-start ps-5 '>
           <h6>
             ABOUT OUR FUNITURE
           </h6>

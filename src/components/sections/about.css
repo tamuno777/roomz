@@ -1,0 +1,83 @@
+.containerr{
+    margin-top: -117px;}
+.banner{
+    /* background-color: blueviolet; */
+    padding: 20%;
+    background-image: url(../../images/img/background.jpg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: center center;
+    /* background-attachment: fixed; */
+}
+.brand{
+    margin: 100px 0;
+    padding: 3% 60% 2% 2%;
+}
+.big-area{
+    background-image: url(../../images/background-3.jpg);
+    width: 100%;
+    height: 830px;
+    background-size: 84%;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    /* background-position: center center; */
+    
+}
+.first {
+    display: flex;
+    padding-left: 10% ;
+    /* background-color: red; */
+    /* padding-bottom: 0 !important; */
+    /* margin-bottom: 10px; */
+   
+}
+.second{
+    display: flex;
+    padding-right:10% ;
+    margin-top: -270px !important;
+    /* background-color: blue; */
+}
+.first-image >img{
+    border-radius: 20px 0 0 20px;
+    width: 100%;
+    height: 55%;
+    box-shadow: -11px 20px 27px 7px rgba(166,165,165,0.57);
+-webkit-box-shadow: -11px 20px 27px 7px rgba(166,165,165,0.57);
+-moz-box-shadow: -11px 20px 27px 7px rgba(166,165,165,0.57);
+    
+    /* margin-left: 30px; */
+
+
+}
+.second-image >img{
+    border-radius: 0 20px 20px 0;
+    width: 100%;
+    height: 95%;
+    box-shadow: 19px 9px 27px 7px rgba(166,165,165,0.57);
+-webkit-box-shadow: 19px 9px 27px 7px rgba(166,165,165,0.57);
+-moz-box-shadow: 19px 9px 27px 7px rgba(166,165,165,0.57);
+    /* margin: 1% 2% 0 0; */
+    /* margin-left: 30px; */
+
+
+}
+.text{
+    
+    padding:6% 3% ;
+    /* background-color: blue; */
+    /* padding-left: 10px; */
+    width: 50%;
+    height: 50%;
+
+}
+.second-text{
+    
+    padding:6% 0  6% 3%;
+    /* background-color: blue; */
+    /* background-color: blue; */
+    /* padding-left: 10px; */
+    width: 50%;
+    height: 50%;
+
+}

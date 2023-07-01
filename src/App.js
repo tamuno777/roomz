@@ -2,11 +2,11 @@ import React from 'react'
 import Home from './components/Home/Home'
 
 
-function App() {
+function App({cart}) {
   return (
     <div className="App">
 
-      <Home/>
+      <Home cart={cart}/>
     </div>
   );
 }

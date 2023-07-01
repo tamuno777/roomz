@@ -1,12 +1,17 @@
 .btnClass{
     align-items: center;
     text-decoration: none;
+    font-weight: bold;
+
 
     
 }
 a{
     text-decoration: none !important;
     color: black !important;
+}
+p{
+    /* font-weight: bold; */
 }
 /* a:hover{
     border-bottom: 2px solid red !important;
